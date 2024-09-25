@@ -2,6 +2,7 @@
 > 1. Download the Ubuntu iso on your pc
     [Ubunto](https://ubuntu.com/download/raspberry-pi/thank-you?version=24.04.1&architecture=desktop-arm64+raspi)
 > 1. Download Raspberry manager [Raspberry Manager](https://www.raspberrypi.com/software/)
+> 1. install python [Download](https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe)
 
 > install ubunto on the sd card of your Raspberry pi
 <img src="https://i.imgur.com/9RzFxUw.png">
@@ -79,6 +80,9 @@ Sudo mariadb
 
 ## Run the python code
 you dont need to run the code on Raspberry pi,run the code on your local pc 
+```
+python telefonkatalog_oppdatert_sql.py
+```
 
 # Note Change your python
 change this part in your python code with your Raspberry information
@@ -119,6 +123,8 @@ ip address show
 ip a
 
 ```
+
+
 
 
 if you have any other questions you can ask me by sending me mail </br>

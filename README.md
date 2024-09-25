@@ -1,4 +1,4 @@
-# setup ubuntu on Raspberry pi
+# 🔻setup ubuntu on Raspberry pi
 > 1. Download the Ubuntu iso on your pc
     [Ubunto](https://ubuntu.com/download/raspberry-pi/thank-you?version=24.04.1&architecture=desktop-arm64+raspi)
 > 1. Download Raspberry manager [Raspberry Manager](https://www.raspberrypi.com/software/)
@@ -19,7 +19,7 @@ Now you have ubuntu on your sd card you just need to put your name and password 
 
 <ls>
 
-## Setup your OS 
+## 🔃 Setup your OS 
 
 ### now you can update your linux machine (Ubunto)
 
@@ -30,7 +30,7 @@ sudo apt update
 sudo apt upgrade
 ```
 
-## lets setup MariaDB
+## 🟢 lets setup MariaDB
 
 Use this commands one by one to install MariaDB
 ```
@@ -47,13 +47,13 @@ For checking if you have MariaDb you can use it with this command
 Sudo mariadb
 ```
 
-## For connecting to your PI you need to install SSH
+## 🔴 For connecting to your PI you need to install SSH
 
 here is how you can install SSH
 ```
 sudo apt install openssh-server
 ```
-# Now ou need to connect to your server
+# 🔵 Now ou need to connect to your server
 
 use this command to connect to your server 
 ```
@@ -67,7 +67,7 @@ For finding IP adress you can use this commend
 hostname -I
 ```
 
-## Use Databases and python
+## 🟣 Use Databases and python
 
 when you are connected to your database then you need to do the following steps 
 
@@ -78,13 +78,13 @@ Sudo mariadb
 ```
 > 3. write the sqls from first to last 
 
-## Run the python code
+## 🟠 Run the python code
 you dont need to run the code on Raspberry pi,run the code on your local pc 
 ```
 python telefonkatalog_oppdatert_sql.py
 ```
 
-# Note Change your python
+# 🔴 Note Change your python
 change this part in your python code with your Raspberry information
 ```
 conn = mysql.connector.connect(
@@ -97,7 +97,7 @@ conn = mysql.connector.connect(
 
 
 
-## Error Fix
+## ⚠️ Error Fix
 
 if you get error that your port is not open use this commands 
 
@@ -137,4 +137,4 @@ if you have any other questions you can ask me by sending me mail </br>
 
                                                               
 ```
-[Mail](mailto:armines765@gmail.com)
+📧[Mail](mailto:armines765@gmail.com)

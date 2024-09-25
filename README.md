@@ -58,7 +58,7 @@ sudo apt install openssh-server
 use this command to connect to your server 
 ```
 ssh username@ip
-Note : Replace username with your PI user 
+Note : Replace username with your PI user and ip with pi ip 
 ```
 
 For finding IP adress you can use this commend

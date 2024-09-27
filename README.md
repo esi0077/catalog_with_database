@@ -7,17 +7,19 @@
 > 1. Install git [Git Download](https://git-scm.com/)
 
 
-> install ubunto on the sd card of your Raspberry pi </br>
-<img src="https://i.imgur.com/9RzFxUw.png">
--> Step 1 : click on choose device </br>
--> Step 2 : click on the Raspberry that you have </br>
--> Step 3 : click on choose OS</br>
--> Step 4 : Find "Use Custom"
-<img src="https://i.imgur.com/FzshqK6.png">
--> Step 5 : Use the iso file that you downloaded </br>
--> Step 6 : click on "Choose Storage"</br>
--> Step 7 : Choose your SD card</br>
-</br>
+## 🟠 install ubunto on the sd card of your Raspberry pi </br>
+> <img src="https://i.imgur.com/9RzFxUw.png">
+> -> Step 1 : click on choose device </br>
+> -> Step 2 : click on the Raspberry that you have </br>
+> -> Step 3 : click on choose OS</br>
+> -> Step 4 : Find "Use Custom"
+> <img src="https://i.imgur.com/FzshqK6.png">
+> -> Step 5 : Use the iso file that you downloaded </br>
+> -> Step 6 : click on "Choose Storage"</br>
+> Note : if you get error to format everything peress yes <br>
+> -> Step 7 : Choose your SD card</br>
+> -> Step 8 : Insert SD card to your Raspberry
+<br>
 Now you have ubuntu on your sd card you just need to put your name and password on the ubunto os 
 
 <ls>
@@ -69,17 +71,12 @@ For finding IP adress you can use this commend
 ```bash
 hostname -I
 ```
+## ⬇️ Download the repository
 
-## 🟣 Use Databases and python
-
-when you are connected to your database then you need to do the following steps 
-
-> 1. open sql file 
-> 1. open mariadb 
 ```bash
-Sudo mariadb
+git clone https://github.com/esi0077/catalog_with_database.git
 ```
-> 3. write the sqls from first to last 
+
 # 🟢 Create a user in mariadb for your python
 ```bash
 sudo mariadb
@@ -97,6 +94,21 @@ GRANT ALL PRIVILEGES ON *.* TO 'username'@'%';
 FLUSH PRIVILEGES
 
 ```
+
+## 🟣 Use Databases and python
+
+when you are connected to your database then you need to do the following steps 
+
+> 1. open sql file 
+> 1. open mariadb 
+
+```bash
+mariadb -u username -p
+
+Note : Change username to username that you made.
+```
+> 3. write the sqls from first to last 
+
 
 
 ## 🟠 Run the python code

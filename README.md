@@ -1,13 +1,13 @@
 # 🔻setup ubuntu on Raspberry pi
 
 > 1. Download the Ubuntu iso on your pc
-    [Ubunto](https://ubuntu.com/download/raspberry-pi/thank-you?version=24.04.1&architecture=desktop-arm64+raspi)
+    [Ubuntu](https://ubuntu.com/download/raspberry-pi/thank-you?version=24.04.1&architecture=desktop-arm64+raspi)
 > 1. Download Raspberry manager [Raspberry Manager](https://www.raspberrypi.com/software/)
 > 1. install python [Download](https://www.python.org/ftp/python/3.12.6/python-3.12.6-amd64.exe)
 > 1. Install git [Git Download](https://git-scm.com/)
 
 
-## 🟠 install ubunto on the sd card of your Raspberry pi </br>
+## 🟠 install Ubuntu on the sd card of your Raspberry pi </br>
 > <img src="https://i.imgur.com/9RzFxUw.png">
 > -> Step 1 : click on choose device </br>
 > -> Step 2 : click on the Raspberry that you have </br>
@@ -20,13 +20,24 @@
 > -> Step 7 : Choose your SD card</br>
 > -> Step 8 : Insert SD card to your Raspberry
 <br>
-Now you have ubuntu on your sd card you just need to put your name and password on the ubunto os 
+Now you have ubuntu on your sd card you just need to put your name and password on the Ubuntu os 
 
+
+## 🤖 Setup git 
+> Installing git is not hard just press next on everything and finish at the end <br>
+> Restart your pc <br>
+> After run this code on CMD <br>
+> NOTE : For opening CMD press Win + R and type cmd 
+```bash 
+type this to check if you did it correctly
+
+git --version
+```
 <ls>
 
 ## 🔃 Setup your OS 
 
-### now you can update your linux machine (Ubunto)
+### now you can update your linux machine (Ubuntu)
 
 Write this commands to update your OS 
 ```bash
